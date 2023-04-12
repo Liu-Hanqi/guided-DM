@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="15f13ed7-b25d-4899-afa4-489b2e1e2670" name="服务器3090*2">
+        <fileTransfer accessType="SFTP" host="10.16.111.241" port="5122" sshConfigId="453a839d-16ef-416f-894a-0d80a6d989e9" sshConfig="sshConfig://ubuntu@10.16.111.241:5122 password/home/ubuntu/anaconda3/bin/python3">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0bc18c3c-d941-4975-8598-d8e1c1c69c77" name="8*A5000 (project level)">
+        <fileTransfer accessType="SFTP" host="10.16.51.118" port="22" sshConfigId="9093c69f-e235-4ff7-9fd1-cdb15933d558" sshConfig="8*A5000">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

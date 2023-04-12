@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="服务器3090*2" remoteFilesAllowedToDisappearOnAutoupload="false" showExcludedInSync="true">
+    <serverData>
+      <paths name="8*A5000">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/userHome/zy/lhq/guided-diffusion-main" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="服务器3090*2">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/ubuntu/home/Dammer/guided-diffusion-main" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/home/ubuntu/home/Dammer/guided-diffusion-main/datasets" />
+            <excludedPath path="/home/ubuntu/home/Dammer/guided-diffusion-main/128classifier-log" />
+            <excludedPath path="/home/ubuntu/home/Dammer/guided-diffusion-main/models" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
